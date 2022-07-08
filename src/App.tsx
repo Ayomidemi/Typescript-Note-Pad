@@ -9,9 +9,9 @@ function App() {
 
   const [notes, setNotes] = useState<Note[]> ([{
     id: (new Date()).toString(),
-    title: "",
-    text: "",
-    color: "",
+    title: "Title e.g Meetings",
+    text: "Text e.g Schedule meeting with the manager",
+    color: "#dfdfdf",
     date: (new Date()).toString()
   }])
 
